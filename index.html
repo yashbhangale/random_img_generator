@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-2">
+        <h2> random cat generator</h2>
+        
+        <button class="btn btn-success" onClick="refreshPage()" >Generate</button>
+<script>
+function refreshPage(){
+    window.location.reload();
+} 
+</script>
+
+        <div class="flex-box-container-2" id="flex-cat-gen">
+            <img src="https://thecatapi.com/api/images/get?format=src&type=gif&size=small" alt="">
+        </div>
+    </div>
+</body>
+</html>
