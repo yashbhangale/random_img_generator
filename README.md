@@ -1,1 +1,1 @@
-# cat_generator
+# random image generator
